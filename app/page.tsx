@@ -1,7 +1,6 @@
 'use client';
 import Hero from "./components/sectionComponents/Hero";
 import About from "./components/sectionComponents/About";
-// import Portfolio from "./components/sectionComponents/Portfolio";
 import Testimonials from "./components/sectionComponents/Testimonials";
 import Contact from "./components/sectionComponents/Contact";
 import Footer from "./components/layoutComponents/Footer";
@@ -14,7 +13,6 @@ export default function Home() {
         <Hero/>
         <About/>
         <Services/>
-        {/* <Portfolio/> */}
         <Skills/>
         <Testimonials/>
         <Contact/>

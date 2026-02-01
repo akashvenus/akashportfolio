@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
     const services = [
         {
@@ -105,12 +107,14 @@ export default function Services() {
 
                 {/* CTA */}
                 <div className="text-center mt-12 md:mt-16">
+                    <Link href='https://calendly.com/akashcanada1999' target="_blank">
                     <button className="px-8 py-4 bg-accent-lime text-background font-semibold rounded-full hover:bg-accent-lime-hover transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
                         Let's Work Together
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </button>
+                    </Link>
                 </div>
             </div>
         </section>
